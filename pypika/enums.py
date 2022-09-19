@@ -155,3 +155,10 @@ class JSONOperators(Enum):
     GET_TEXT_VALUE = "->>"
     GET_PATH_JSON_VALUE = "#>"
     GET_PATH_TEXT_VALUE = "#>>"
+
+
+class MergeMatchingSituation(Enum):
+    MATCHED = "MATCHED"
+    NOT_MATCHED = "NOT MATCHED"
+    NOT_MATCHED_BY_TARGET = "NOT MATCHED"
+    NOT_MATCHED_BY_SOURCE = "NOT MATCHED BY SOURCE"
